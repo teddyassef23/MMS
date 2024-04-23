@@ -1,0 +1,8 @@
+.navbar-nav .nav-link:hover {
+    color: orange;
+  }
+  
+  .banner:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del logo al hacer hover */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+  }

@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS mms_db;
+
+CREATE DATABASE mms_db;

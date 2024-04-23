@@ -1,0 +1,6 @@
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente (si es necesario) */
+  }
+  

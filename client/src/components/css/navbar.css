@@ -1,0 +1,45 @@
+.navbar {
+  transition: background-color 0.3s ease; /* Add a smooth transition for the background color change */
+}
+
+.navbar-scrolled {
+  background-color: #333; /* Change background color when scrolling */
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease; /* Add a smooth transition for text color change */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Change text color on hover */
+}
+.navbar-nav .nav-link {
+  font-weight: 600; /* Set font weight to make text thicker */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  margin-right: 1rem;
+}

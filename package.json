@@ -1,0 +1,47 @@
+{
+  "name": "membersManagementSystem-mms-",
+  "version": "1.0.0",
+  "description": "Member Management and payment collection ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "render-build": "npm install && npm run build",
+    "build": "cd client && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.3.6",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-firebase/app": "^19.2.2",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "antd": "^5.16.1",
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "express": "^4.17.1",
+    "firebase": "^10.11.0",
+    "framer-motion": "^11.0.25",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.0.2",
+    "react-native-gesture-handler": "^2.16.0",
+    "react-native-reanimated": "^3.8.1",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.30.1",
+    "react-router-dom": "^6.22.3",
+    "react-spring": "^9.7.3",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "vite": "^4.4.5"
+  }
+}
